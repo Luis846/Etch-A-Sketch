@@ -88,7 +88,7 @@ function gridChange2(){
         container.removeChild(container.lastChild);
     }
 
-    let dimensions = prompt('BlackMode: Enter a Grid Size between 1 - 64');
+    let dimensions = prompt('RetroMode: Enter a Grid Size between 1 - 64');
 
     if(isNaN(dimensions)) {
         alert('Try again, thats not a number pal');
